@@ -12,8 +12,8 @@ namespace ProjectAveryCommon.Model.Entity.Pocos
     {
         public ulong Id { get; set; }
         public string Name { get; set; }
-        public ServerVersion Version { get; set; }
-        public JavaSettings JavaSettings { get; set; }
+        public virtual ServerVersion Version { get; set; }
+        public virtual JavaSettings JavaSettings { get; set; }
 
         public bool Initialized { get; set; } = false;
         public bool StartWithFork { get; set; } = false;
@@ -21,7 +21,7 @@ namespace ProjectAveryCommon.Model.Entity.Pocos
         public int ServerIconId { get; set; }
         public DateTime ResourcePackHashAge { get; set; } = DateTime.MinValue;
         
-        public List<AutomationTime> AutomationTimes { get; set; }
+        public virtual List<AutomationTime> AutomationTimes { get; set; }
 
         [NotMapped]
         public VanillaSettings ServerSettings { get; set; }
@@ -51,7 +51,7 @@ namespace ProjectAveryCommon.Model.Entity.Pocos
 
         /// <summary>
         /// Constructor for deserializer/ef core
-        /// This is called, because the default Constructor does contain unmapped values
+        /// This is called, because the default constructor does contain unmapped values
         /// </summary>
         public Server()
         {
