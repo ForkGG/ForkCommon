@@ -15,4 +15,8 @@
       <Folder Include="Model\Entity\Notifications" />
     </ItemGroup>
 
+    <ItemGroup>
+      <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    </ItemGroup>
+
 </Project>
