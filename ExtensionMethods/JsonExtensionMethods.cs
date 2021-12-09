@@ -13,7 +13,7 @@ namespace ProjectAveryCommon.ExtensionMethods
         public static string ToJson(this object o)
         {
             JsonSerializerSettings options = new JsonSerializerSettings();
-            options.TypeNameHandling = TypeNameHandling.Auto;
+            options.TypeNameHandling = TypeNameHandling.All;
 #if DEBUG
             options.Formatting = Formatting.Indented;
 #else
@@ -29,7 +29,7 @@ namespace ProjectAveryCommon.ExtensionMethods
         /// <param name="json">Json representation of the object</param>
         /// <typeparam name="T">Type of the object</typeparam>
         /// <returns>Deserialized object</returns>
-        public static T FromJson<T>(this string json) where T : new()
+        public static T FromJson<T>(this string json)
         {
             JsonSerializerSettings options = new JsonSerializerSettings();
             options.TypeNameHandling = TypeNameHandling.Auto;

@@ -13,7 +13,7 @@
     <ItemGroup>
       <Folder Include="Model\Application\Exceptions" />
       <Folder Include="Model\Entity\Exceptions" />
-      <Folder Include="Model\Entity\Notifications" />
+      <Folder Include="Model\Entity\Transient" />
     </ItemGroup>
 
     <ItemGroup>
