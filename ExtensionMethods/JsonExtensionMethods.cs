@@ -14,6 +14,7 @@ namespace ProjectAveryCommon.ExtensionMethods
         {
             JsonSerializerSettings options = new JsonSerializerSettings();
             options.TypeNameHandling = TypeNameHandling.All;
+            options.TypeNameAssemblyFormatHandling = TypeNameAssemblyFormatHandling.Full;
 #if DEBUG
             //options.Formatting = Formatting.Indented;
             options.Formatting = Formatting.None;

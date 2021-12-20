@@ -59,7 +59,7 @@ namespace ProjectAveryCommon.Model.Entity.Pocos.ServerSettings
 
         public Gamemode CurrGamemode
         {
-            get => (Gamemode)Enum.Parse(typeof(Gamemode),SettingsDictionary["gamemode"].First().ToString().ToUpper()+SettingsDictionary["gamemode"].Substring(1));
+            //get => (Gamemode)Enum.Parse(typeof(Gamemode),SettingsDictionary["gamemode"].First().ToString().ToUpper()+SettingsDictionary["gamemode"].Substring(1));
             set => SettingsDictionary["gamemode"] = value.ToString().ToLower();
         }
 
@@ -83,7 +83,7 @@ namespace ProjectAveryCommon.Model.Entity.Pocos.ServerSettings
 
         public Difficulty CurrDifficulty
         {
-            get => (Difficulty)Enum.Parse(typeof(Difficulty),SettingsDictionary["difficulty"].First().ToString().ToUpper()+SettingsDictionary["difficulty"].Substring(1));
+            //get => (Difficulty)Enum.Parse(typeof(Difficulty),SettingsDictionary["difficulty"].First().ToString().ToUpper()+SettingsDictionary["difficulty"].Substring(1));
             set => SettingsDictionary["difficulty"] = value.ToString().ToLower();
         }
 
@@ -119,7 +119,7 @@ namespace ProjectAveryCommon.Model.Entity.Pocos.ServerSettings
 
         public LevelType CurrLevelType
         {
-            get => (LevelType)Enum.Parse(typeof(LevelType),SettingsDictionary["level-type"].First().ToString().ToUpper()+SettingsDictionary["level-type"].Substring(1));
+            //get => (LevelType)Enum.Parse(typeof(LevelType),SettingsDictionary["level-type"].First().ToString().ToUpper()+SettingsDictionary["level-type"].Substring(1));
             set => SettingsDictionary["level-type"] = value.ToString().ToLower();
         }
 
@@ -310,6 +310,12 @@ namespace ProjectAveryCommon.Model.Entity.Pocos.ServerSettings
         }
         #endregion
 
+        [Obsolete("Only used by JSON deserializer")]
+        public VanillaSettings()
+        {
+            SettingsDictionary = new();
+        }
+        
         public VanillaSettings(string levelname)
         {
             SettingsDictionary = new();

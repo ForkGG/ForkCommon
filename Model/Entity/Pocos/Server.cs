@@ -5,17 +5,18 @@ using Newtonsoft.Json;
 using ProjectAveryCommon.Model.Entity.Enums;
 using ProjectAveryCommon.Model.Entity.Pocos.Automation;
 using ProjectAveryCommon.Model.Entity.Pocos.ServerSettings;
+using ProjectAveryCommon.Model.Entity.Transient.Console;
 
 namespace ProjectAveryCommon.Model.Entity.Pocos
 {
     public class Server : IEntity
     {
-        public Server(string name, ServerVersion version, VanillaSettings serverSettings, JavaSettings javaSettings)
+        public Server(string name, ServerVersion version, VanillaSettings vanillaSettings, JavaSettings javaSettings)
         {
             Name = name;
             Version = version;
             JavaSettings = javaSettings;
-            ServerSettings = serverSettings;
+            VanillaSettings = vanillaSettings;
             AutomationTimes = new List<AutomationTime>(8);
             AutomationTimes.Add(new AutomationTime
                 { Enabled = false, Time = new SimpleTime(0, 0), Type = AutomationType.Restart });
@@ -48,9 +49,9 @@ namespace ProjectAveryCommon.Model.Entity.Pocos
         public bool AutoSetSha1 { get; set; } = true;
         public DateTime ResourcePackHashAge { get; set; } = DateTime.MinValue;
 
-        public virtual List<AutomationTime> AutomationTimes { get; set; }
+        public List<AutomationTime> AutomationTimes { get; set; }
 
-        [NotMapped] [JsonIgnore] public VanillaSettings ServerSettings { get; set; }
+        [NotMapped] [JsonIgnore] public VanillaSettings VanillaSettings { get; set; }
 
         [NotMapped] [JsonIgnore] public string FullName => Name + " (" + Version.Version + ")";
 
@@ -58,12 +59,16 @@ namespace ProjectAveryCommon.Model.Entity.Pocos
 
         public ulong Id { get; set; }
         public string Name { get; set; }
-        public virtual ServerVersion Version { get; set; }
-        public virtual JavaSettings JavaSettings { get; set; }
+        public ServerVersion Version { get; set; }
+        public JavaSettings JavaSettings { get; set; }
 
         public bool Initialized { get; set; } = false;
         public bool StartWithFork { get; set; } = false;
         public int ServerIconId { get; set; }
+
+        [NotMapped] public List<ConsoleMessage> ConsoleMessages { get; } = new ();
+        [NotMapped] public EntityStatus Status { get; set; } = EntityStatus.Stopped;
+        [NotMapped] public Action<string> ConsoleHandler { get; set; } 
 
         public override string ToString()
         {
