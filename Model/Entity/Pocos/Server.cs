@@ -4,6 +4,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 using Newtonsoft.Json;
 using ProjectAveryCommon.Model.Entity.Enums;
 using ProjectAveryCommon.Model.Entity.Pocos.Automation;
+using ProjectAveryCommon.Model.Entity.Pocos.Player;
 using ProjectAveryCommon.Model.Entity.Pocos.ServerSettings;
 using ProjectAveryCommon.Model.Entity.Transient.Console;
 
@@ -50,6 +51,8 @@ namespace ProjectAveryCommon.Model.Entity.Pocos
         public DateTime ResourcePackHashAge { get; set; } = DateTime.MinValue;
 
         public List<AutomationTime> AutomationTimes { get; set; }
+        
+        public List<ServerPlayer> ServerPlayers { get; set; }
 
         [NotMapped] [JsonIgnore] public VanillaSettings VanillaSettings { get; set; }
 
