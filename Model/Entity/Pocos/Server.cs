@@ -66,9 +66,9 @@ namespace ProjectAveryCommon.Model.Entity.Pocos
         public bool StartWithFork { get; set; } = false;
         public int ServerIconId { get; set; }
 
-        [NotMapped] public List<ConsoleMessage> ConsoleMessages { get; } = new ();
+        [NotMapped][JsonIgnore] public List<ConsoleMessage> ConsoleMessages { get; } = new ();
         [NotMapped] public EntityStatus Status { get; set; } = EntityStatus.Stopped;
-        [NotMapped] public Action<string> ConsoleHandler { get; set; } 
+        [NotMapped][JsonIgnore] public Action<string> ConsoleHandler { get; set; } 
 
         public override string ToString()
         {
