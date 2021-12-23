@@ -53,8 +53,10 @@ namespace ProjectAveryCommon.Model.Entity.Pocos
         public List<AutomationTime> AutomationTimes { get; set; }
         
         public List<ServerPlayer> ServerPlayers { get; set; }
+        [NotMapped] public List<Player.Player> Whitelist { get; set; }
+        [NotMapped] public List<Player.Player> Banlist { get; set; }
 
-        [NotMapped] [JsonIgnore] public VanillaSettings VanillaSettings { get; set; }
+        [NotMapped] public VanillaSettings VanillaSettings { get; set; }
 
         [NotMapped] [JsonIgnore] public string FullName => Name + " (" + Version.Version + ")";
 

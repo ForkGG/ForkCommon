@@ -1,0 +1,16 @@
+﻿using ProjectAveryCommon.Model.Entity.Enums.Player;
+using ProjectAveryCommon.Model.Entity.Pocos.Player;
+using ProjectAveryCommon.Model.Privileges;
+using ProjectAveryCommon.Model.Privileges.Entity.ReadEntity.ReadConsoleTab;
+
+namespace ProjectAveryCommon.Model.Notifications.EntityNotifications.PlayerNotifications;
+
+/// <summary>
+/// Updates a Player on the Whitelist (add, remove or update)
+/// </summary>
+[Privileges(typeof(ReadWhitelistConsoleTabPrivilege))]
+public class UpdateWhitelistPlayerNotification : AbstractEntityNotification
+{
+    public PlayerlistUpdateType UpdateType { get; set; }
+    public Player Player { get; set; }
+}
