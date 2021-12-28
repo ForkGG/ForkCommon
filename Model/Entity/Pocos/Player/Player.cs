@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace ProjectAveryCommon.Model.Entity.Pocos.Player;
 
-public class Player
+public class Player : IComparable
 {
     [Key] 
     public string Uid { get; set; }
@@ -36,5 +36,12 @@ public class Player
     public override int GetHashCode()
     {
         return HashCode.Combine(IsOfflinePlayer, Name, Uid);
+    }
+
+    public int CompareTo(object? obj)
+    {
+        if (obj is Player player)
+            return String.Compare(Name, player.Name, StringComparison.Ordinal);
+        throw new ArgumentException("Object is not a Player");
     }
 }
