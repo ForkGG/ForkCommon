@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Text.RegularExpressions;
-using ProjectAveryCommon.Model.Entity.Enums;
+using ForkCommon.Model.Entity.Enums;
 
-namespace ProjectAveryCommon.Model.Entity.Pocos
+namespace ForkCommon.Model.Entity.Pocos
 {
     public class ServerVersion
     {

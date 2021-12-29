@@ -2,7 +2,7 @@
 using System.Linq;
 using System.Reflection;
 
-namespace ProjectAveryCommon.ExtensionMethods;
+namespace ForkCommon.ExtensionMethods;
 
 public static class TypeExtensionMethods
 {

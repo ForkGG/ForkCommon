@@ -1,4 +1,4 @@
-﻿namespace ProjectAveryCommon.Model.Privileges.Entity.ReadEntity.ReadConsoleTab;
+﻿namespace ForkCommon.Model.Privileges.Entity.ReadEntity.ReadConsoleTab;
 
 public class ReadBanlistConsoleTabPrivilege : IReadConsoleTabPrivilege
 {

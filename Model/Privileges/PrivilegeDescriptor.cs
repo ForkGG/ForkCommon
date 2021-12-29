@@ -1,4 +1,4 @@
-﻿namespace ProjectAveryCommon.Model.Privileges;
+﻿namespace ForkCommon.Model.Privileges;
 
 public class PrivilegeDescriptor<T> where T : IPrivilege
 {

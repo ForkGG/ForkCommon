@@ -1,4 +1,4 @@
-﻿namespace ProjectAveryCommon.Model.Notifications;
+﻿namespace ForkCommon.Model.Notifications;
 
 public abstract class AbstractNotification
 {

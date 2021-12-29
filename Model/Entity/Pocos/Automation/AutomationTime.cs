@@ -1,7 +1,7 @@
 ﻿using Newtonsoft.Json;
-using ProjectAveryCommon.Model.Entity.Enums;
+using ForkCommon.Model.Entity.Enums;
 
-namespace ProjectAveryCommon.Model.Entity.Pocos.Automation
+namespace ForkCommon.Model.Entity.Pocos.Automation
 {
     /// <summary>
     /// A class for all automations

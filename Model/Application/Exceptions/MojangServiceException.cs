@@ -1,4 +1,4 @@
-﻿namespace ProjectAveryCommon.Model.Application.Exceptions;
+﻿namespace ForkCommon.Model.Application.Exceptions;
 
 /// <summary>
 /// Thrown when the Mojang API returns an error

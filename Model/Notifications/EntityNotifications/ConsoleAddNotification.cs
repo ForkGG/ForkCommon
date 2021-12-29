@@ -1,8 +1,8 @@
-﻿using ProjectAveryCommon.Model.Entity.Transient.Console;
-using ProjectAveryCommon.Model.Privileges;
-using ProjectAveryCommon.Model.Privileges.Entity.ReadEntity.ReadConsoleTab;
+﻿using ForkCommon.Model.Entity.Transient.Console;
+using ForkCommon.Model.Privileges;
+using ForkCommon.Model.Privileges.Entity.ReadEntity.ReadConsoleTab;
 
-namespace ProjectAveryCommon.Model.Notifications.EntityNotifications;
+namespace ForkCommon.Model.Notifications.EntityNotifications;
 
 [Privileges(typeof(ReadConsoleConsoleTabPrivilege))]
 public class ConsoleAddNotification : AbstractEntityNotification

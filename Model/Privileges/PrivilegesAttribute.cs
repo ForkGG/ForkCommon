@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ProjectAveryCommon.Model.Privileges;
+namespace ForkCommon.Model.Privileges;
 
 /// <summary>
 /// Specifies that the class or method that this attribute is applied to requires the specified privilege.

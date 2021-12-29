@@ -3,7 +3,7 @@ using System.IO;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace ProjectAveryCommon.ExtensionMethods;
+namespace ForkCommon.ExtensionMethods;
 
 public static class StreamExtensions
 {

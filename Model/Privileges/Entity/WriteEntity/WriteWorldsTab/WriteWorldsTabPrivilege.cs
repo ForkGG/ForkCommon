@@ -1,4 +1,4 @@
-﻿namespace ProjectAveryCommon.Model.Privileges.Entity.WriteEntity.WriteWorldsTab;
+﻿namespace ForkCommon.Model.Privileges.Entity.WriteEntity.WriteWorldsTab;
 
 public class WriteWorldsTabPrivilege : IWriteEntityPrivilege
 {

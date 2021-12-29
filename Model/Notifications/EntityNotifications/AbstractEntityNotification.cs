@@ -1,4 +1,4 @@
-﻿namespace ProjectAveryCommon.Model.Notifications.EntityNotifications;
+﻿namespace ForkCommon.Model.Notifications.EntityNotifications;
 
 /// <summary>
 /// Abstract Class for all notifications that belong to a single entity

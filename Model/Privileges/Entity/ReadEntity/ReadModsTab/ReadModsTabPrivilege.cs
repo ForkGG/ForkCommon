@@ -1,4 +1,4 @@
-﻿namespace ProjectAveryCommon.Model.Privileges.Entity.ReadEntity.ReadModsTab;
+﻿namespace ForkCommon.Model.Privileges.Entity.ReadEntity.ReadModsTab;
 
 public class ReadModsTabPrivilege : IReadEntityPrivilege
 {

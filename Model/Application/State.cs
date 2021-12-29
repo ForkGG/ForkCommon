@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
-using ProjectAveryCommon.Model.Entity.Pocos;
+using ForkCommon.Model.Entity.Pocos;
 
-namespace ProjectAveryCommon.Model.Application
+namespace ForkCommon.Model.Application
 {
     /// <summary>
     ///     The class that is filled with all state data of the application to be passed to the frontend

@@ -1,4 +1,4 @@
-﻿namespace ProjectAveryCommon.Model.Privileges.Entity.WriteEntity.WriteSettingsTab;
+﻿namespace ForkCommon.Model.Privileges.Entity.WriteEntity.WriteSettingsTab;
 
 public class WriteGeneralSettingsTabPrivilege : IWriteSettingsTabPrivilege
 {

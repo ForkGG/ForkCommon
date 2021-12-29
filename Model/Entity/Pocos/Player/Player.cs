@@ -1,7 +1,7 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
 
-namespace ProjectAveryCommon.Model.Entity.Pocos.Player;
+namespace ForkCommon.Model.Entity.Pocos.Player;
 
 public class Player : IComparable
 {

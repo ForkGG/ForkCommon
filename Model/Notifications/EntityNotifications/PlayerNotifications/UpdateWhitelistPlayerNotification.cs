@@ -1,9 +1,9 @@
-﻿using ProjectAveryCommon.Model.Entity.Enums.Player;
-using ProjectAveryCommon.Model.Entity.Pocos.Player;
-using ProjectAveryCommon.Model.Privileges;
-using ProjectAveryCommon.Model.Privileges.Entity.ReadEntity.ReadConsoleTab;
+﻿using ForkCommon.Model.Entity.Enums.Player;
+using ForkCommon.Model.Entity.Pocos.Player;
+using ForkCommon.Model.Privileges;
+using ForkCommon.Model.Privileges.Entity.ReadEntity.ReadConsoleTab;
 
-namespace ProjectAveryCommon.Model.Notifications.EntityNotifications.PlayerNotifications;
+namespace ForkCommon.Model.Notifications.EntityNotifications.PlayerNotifications;
 
 /// <summary>
 /// Updates a Player on the Whitelist (add, remove or update)

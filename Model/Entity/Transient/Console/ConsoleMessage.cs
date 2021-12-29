@@ -1,7 +1,7 @@
-﻿using ProjectAveryCommon.Model.Entity.Enums.Console;
-using ProjectAveryCommon.Model.Entity.Pocos;
+﻿using ForkCommon.Model.Entity.Enums.Console;
+using ForkCommon.Model.Entity.Pocos;
 
-namespace ProjectAveryCommon.Model.Entity.Transient.Console;
+namespace ForkCommon.Model.Entity.Transient.Console;
 
 public class ConsoleMessage
 {

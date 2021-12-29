@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
 using Newtonsoft.Json;
-using ProjectAveryCommon.Model.Entity.Enums;
-using ProjectAveryCommon.Model.Entity.Transient.Console;
+using ForkCommon.Model.Entity.Enums;
+using ForkCommon.Model.Entity.Transient.Console;
 
-namespace ProjectAveryCommon.Model.Entity.Pocos
+namespace ForkCommon.Model.Entity.Pocos
 {
     public interface IEntity
     {

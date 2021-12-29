@@ -1,4 +1,4 @@
-﻿namespace ProjectAveryCommon.Model.Privileges.Entity;
+﻿namespace ForkCommon.Model.Privileges.Entity;
 
 public interface IEntityPrivilege : IPrivilege
 {

@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace ProjectAveryCommon.Model.Application;
+namespace ForkCommon.Model.Application;
 
 public class SettingsKeyValue
 {

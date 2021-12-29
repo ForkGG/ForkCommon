@@ -1,4 +1,4 @@
-﻿namespace ProjectAveryCommon.Model.Privileges.AppSettings.WriteAppSettings;
+﻿namespace ForkCommon.Model.Privileges.AppSettings.WriteAppSettings;
 
 public class WriteGeneralAppSettingsPrivilege : IWriteAppSettingsPrivilege
 {

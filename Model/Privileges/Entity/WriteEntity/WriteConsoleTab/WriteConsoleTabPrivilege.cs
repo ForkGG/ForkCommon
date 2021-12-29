@@ -1,4 +1,4 @@
-﻿namespace ProjectAveryCommon.Model.Privileges.Entity.WriteEntity.WriteConsoleTab;
+﻿namespace ForkCommon.Model.Privileges.Entity.WriteEntity.WriteConsoleTab;
 
 public class WriteConsoleTabPrivilege : IWriteEntityPrivilege
 {

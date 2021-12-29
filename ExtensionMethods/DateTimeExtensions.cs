@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ProjectAveryCommon.ExtensionMethods;
+namespace ForkCommon.ExtensionMethods;
 
 public static class DateTimeExtensions
 {

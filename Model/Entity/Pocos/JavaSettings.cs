@@ -1,4 +1,4 @@
-﻿namespace ProjectAveryCommon.Model.Entity.Pocos
+﻿namespace ForkCommon.Model.Entity.Pocos
 {
     public class JavaSettings
     {

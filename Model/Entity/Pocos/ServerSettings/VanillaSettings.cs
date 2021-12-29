@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using ProjectAveryCommon.ExtensionMethods;
-using ProjectAveryCommon.Model.Entity.Enums;
+using ForkCommon.ExtensionMethods;
+using ForkCommon.Model.Entity.Enums;
 
-namespace ProjectAveryCommon.Model.Entity.Pocos.ServerSettings
+namespace ForkCommon.Model.Entity.Pocos.ServerSettings
 {
     public class VanillaSettings : AbstractSettings
     {

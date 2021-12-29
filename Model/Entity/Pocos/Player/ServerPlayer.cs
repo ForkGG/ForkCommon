@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using Newtonsoft.Json;
 
-namespace ProjectAveryCommon.Model.Entity.Pocos.Player;
+namespace ForkCommon.Model.Entity.Pocos.Player;
 
 /// <summary>
 /// A player can exist on multiple servers

@@ -1,4 +1,4 @@
-﻿namespace ProjectAveryCommon.Model.Privileges.Entity.ReadEntity;
+﻿namespace ForkCommon.Model.Privileges.Entity.ReadEntity;
 
 public interface IReadEntityPrivilege : IEntityPrivilege
 {

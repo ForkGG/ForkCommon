@@ -1,4 +1,4 @@
-﻿namespace ProjectAveryCommon.Model.Entity.Enums.Console;
+﻿namespace ForkCommon.Model.Entity.Enums.Console;
 
 public enum ConsoleMessageType
 {

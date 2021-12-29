@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Reflection;
 
-namespace ProjectAveryCommon.Model.Application;
+namespace ForkCommon.Model.Application;
 
 /// <summary>
 ///     A class containing all the App specific settings.

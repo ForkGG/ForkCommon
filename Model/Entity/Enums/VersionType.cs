@@ -1,4 +1,4 @@
-﻿namespace ProjectAveryCommon.Model.Entity.Enums
+﻿namespace ForkCommon.Model.Entity.Enums
 {
     public enum VersionType
     {

@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel;
 
-namespace ProjectAveryCommon.Model.Privileges;
+namespace ForkCommon.Model.Privileges;
 
 [Description("Any privilege")]
 public interface IPrivilege

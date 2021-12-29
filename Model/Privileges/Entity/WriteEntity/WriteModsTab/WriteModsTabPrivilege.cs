@@ -1,4 +1,4 @@
-﻿namespace ProjectAveryCommon.Model.Privileges.Entity.WriteEntity.WriteModsTab;
+﻿namespace ForkCommon.Model.Privileges.Entity.WriteEntity.WriteModsTab;
 
 public class WriteModsTabPrivilege : IWriteEntityPrivilege
 {

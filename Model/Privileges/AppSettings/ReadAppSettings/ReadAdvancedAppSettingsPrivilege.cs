@@ -1,4 +1,4 @@
-﻿namespace ProjectAveryCommon.Model.Privileges.AppSettings.ReadAppSettings;
+﻿namespace ForkCommon.Model.Privileges.AppSettings.ReadAppSettings;
 
 public class ReadAdvancedAppSettingsPrivilege : IReadAppSettingsPrivilege
 {

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ProjectAveryCommon.Model.Application.Exceptions;
+namespace ForkCommon.Model.Application.Exceptions;
 
 public class ForkException : Exception
 {

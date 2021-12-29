@@ -1,7 +1,7 @@
-﻿using ProjectAveryCommon.Model.Entity.Pocos;
-using ProjectAveryCommon.Model.Entity.Pocos.ServerSettings;
+﻿using ForkCommon.Model.Entity.Pocos;
+using ForkCommon.Model.Entity.Pocos.ServerSettings;
 
-namespace ProjectAveryCommon.Model.Payloads.Entity;
+namespace ForkCommon.Model.Payloads.Entity;
 
 public class CreateServerPayload
 {

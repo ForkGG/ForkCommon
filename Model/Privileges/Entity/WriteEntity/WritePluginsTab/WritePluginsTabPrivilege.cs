@@ -1,4 +1,4 @@
-﻿namespace ProjectAveryCommon.Model.Privileges.Entity.WriteEntity.WritePluginsTab;
+﻿namespace ForkCommon.Model.Privileges.Entity.WriteEntity.WritePluginsTab;
 
 public class WritePluginsTabPrivilege : IWriteEntityPrivilege
 {

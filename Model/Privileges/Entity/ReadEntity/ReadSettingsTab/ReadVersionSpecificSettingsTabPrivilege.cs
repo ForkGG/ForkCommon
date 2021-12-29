@@ -1,4 +1,4 @@
-﻿namespace ProjectAveryCommon.Model.Privileges.Entity.ReadEntity.ReadSettingsTab;
+﻿namespace ForkCommon.Model.Privileges.Entity.ReadEntity.ReadSettingsTab;
 
 public class ReadVersionSpecificSettingsTabPrivilege : IReadSettingsTabPrivilege
 {

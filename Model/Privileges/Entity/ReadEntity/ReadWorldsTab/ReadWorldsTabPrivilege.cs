@@ -1,4 +1,4 @@
-﻿namespace ProjectAveryCommon.Model.Privileges.Entity.ReadEntity.ReadWorldsTab;
+﻿namespace ForkCommon.Model.Privileges.Entity.ReadEntity.ReadWorldsTab;
 
 public class ReadWorldsTabPrivilege : IReadEntityPrivilege
 {

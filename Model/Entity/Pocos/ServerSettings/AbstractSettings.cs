@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace ProjectAveryCommon.Model.Entity.Pocos.ServerSettings
+namespace ForkCommon.Model.Entity.Pocos.ServerSettings
 {
     public abstract class AbstractSettings
     {

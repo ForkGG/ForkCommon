@@ -1,4 +1,4 @@
-﻿namespace ProjectAveryCommon.Model.Privileges.Application;
+﻿namespace ForkCommon.Model.Privileges.Application;
 
 public class RenameEntityPrivilege : IApplicationPrivilege
 {

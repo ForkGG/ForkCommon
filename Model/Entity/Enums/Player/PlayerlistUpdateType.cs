@@ -1,4 +1,4 @@
-﻿namespace ProjectAveryCommon.Model.Entity.Enums.Player;
+﻿namespace ForkCommon.Model.Entity.Enums.Player;
 
 public enum PlayerlistUpdateType
 {

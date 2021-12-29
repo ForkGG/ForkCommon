@@ -1,4 +1,4 @@
-﻿namespace ProjectAveryCommon.Model.Privileges.Entity.ReadEntity.ReadPluginsTab;
+﻿namespace ForkCommon.Model.Privileges.Entity.ReadEntity.ReadPluginsTab;
 
 public class ReadPluginsTabPrivilege : IReadEntityPrivilege
 {

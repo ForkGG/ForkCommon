@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ProjectAveryCommon.Model.Entity.Pocos.Automation
+namespace ForkCommon.Model.Entity.Pocos.Automation
 {
     /// <summary>
     /// This time class only contains an hour (0-24) and a minute (0-59) value
