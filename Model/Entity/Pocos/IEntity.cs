@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
+using Newtonsoft.Json;
 using ProjectAveryCommon.Model.Entity.Enums;
 using ProjectAveryCommon.Model.Entity.Transient.Console;
 
@@ -18,8 +19,10 @@ namespace ProjectAveryCommon.Model.Entity.Pocos
         int ServerIconId { get; set; }
         
         // Unmapped fields
+        [JsonIgnore]
         List<ConsoleMessage> ConsoleMessages { get; }
         EntityStatus Status { get; set; }
+        [JsonIgnore]
         Action<string> ConsoleHandler { get; set; }  
 
 
