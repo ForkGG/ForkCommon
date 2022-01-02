@@ -16,6 +16,8 @@ public class ServerPlayer : IComparable
     
     // The player this instance is relating to
     public Player Player { get; set; }
+    [ForeignKey(nameof(Player))]
+    public string PlayerId { get; set; }
     
     // The server this instance is relating to
     [JsonIgnore]
