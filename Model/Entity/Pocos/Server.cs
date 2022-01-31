@@ -71,7 +71,7 @@ namespace ForkCommon.Model.Entity.Pocos
         public bool StartWithFork { get; set; } = false;
         public int ServerIconId { get; set; }
 
-        [NotMapped][JsonIgnore] public List<ConsoleMessage> ConsoleMessages { get; } = new ();
+        [NotMapped][JsonIgnore] public List<ConsoleMessage> ConsoleMessages { get; set; } = new ();
         [NotMapped] public EntityStatus Status { get; set; } = EntityStatus.Stopped;
         [NotMapped][JsonIgnore] public Action<string> ConsoleHandler { get; set; } 
 

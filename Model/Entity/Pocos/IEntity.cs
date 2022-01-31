@@ -20,7 +20,7 @@ namespace ForkCommon.Model.Entity.Pocos
         
         // Unmapped fields
         [JsonIgnore]
-        List<ConsoleMessage> ConsoleMessages { get; }
+        List<ConsoleMessage> ConsoleMessages { get; set; }
         EntityStatus Status { get; set; }
         [JsonIgnore]
         Action<string> ConsoleHandler { get; set; }  
